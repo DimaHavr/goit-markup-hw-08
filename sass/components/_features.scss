@@ -1,0 +1,35 @@
+.features__list {
+   display: flex;
+   align-items: flex-start;
+   gap: 30px;
+
+   .features__item {
+   max-width: 270px;
+}
+
+.features__icon-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--background-second);
+   border-radius: 4px;
+   width: 270px;
+   height: 120px;
+   margin-bottom: 30px;
+}
+
+.features__titel {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+}
+
+.features__text {
+   font-size: 14px;
+   line-height: 1.71;
+   color: var(--second-color);
+}
+}
+

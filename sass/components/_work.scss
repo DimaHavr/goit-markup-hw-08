@@ -1,0 +1,36 @@
+.work {
+   padding-bottom: 94px;
+
+   .work__titel {
+   margin-bottom: 50px;
+}
+
+.work__list {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+
+.work__images__box {
+   position: relative;
+}
+
+.work__images__text {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   bottom: 0;
+   left: 0;
+   width: 370px;
+   height: 70px;
+   background-color: var(--background-work-text-color);
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   text-align: center;
+   text-transform: uppercase;
+   color: var(--basic-color);
+}
+}
+

@@ -1,0 +1,24 @@
+// .page-header {
+//    padding-top: 24px;
+//    padding-bottom: 23px;
+// }
+// .page-header__box {
+//    display: flex;
+//    align-items: center;
+//    justify-content: space-between;
+// }
+
+.page-header{
+   padding-top: 16px;
+   padding-bottom: 16px;
+}
+.page-header__box{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.mobile-menu-button{
+   background-color: transparent;
+   border: none;
+   padding: 0;
+}
