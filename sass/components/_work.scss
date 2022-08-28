@@ -8,9 +8,11 @@
 .work__list {
    display: flex;
    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
    gap: 30px;
-}
-
+} 
+  
 .work__images__box {
    position: relative;
 }
