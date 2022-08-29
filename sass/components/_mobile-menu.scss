@@ -11,10 +11,6 @@
       opacity: 0;
       pointer-events: none;
       transition: opacity 400ms, visibility 450ms;
-      .nav__list,
-      .contact__list {
-         display: none;
-      }
    }
    .mobile-menu.is-open {
       visibility: visible;
