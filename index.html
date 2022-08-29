@@ -30,8 +30,8 @@
                </ul>
             </nav>
          </div>
-         <button class="mobile-menu-button" data-menu-open type="button"><svg class="mobile-menu-button__icon" width="40"
-               height="40px">
+         <button class="mobile-menu-button" data-menu-open type="button"><svg class="mobile-menu-button__icon"
+               width="40" height="40px">
                <use href="./images/symbol-defs.svg#icon-menu_40px"></use>
             </svg></button>
          <div class="contact__box">
@@ -54,8 +54,8 @@
          </div>
          <div class="mobile-menu" data-menu>
             <div class="container mobile-menu__container">
-               <button type="button" class="mobile-menu__close-button" data-menu-close><svg class="mobile-menu__close-icon" width="40px"
-                     height="40px">
+               <button type="button" class="mobile-menu__close-button" data-menu-close><svg
+                     class="mobile-menu__close-icon" width="40px" height="40px">
                      <use href="./images/symbol-defs.svg#icon-close-black"></use>
                   </svg></button>
                <ul class="mobile-menu__list">
@@ -87,14 +87,14 @@
    </header>
    <main>
       <!-- Герой -->
-      <!-- <section class="hero">
+      <section class="hero">
             <div class="hero__box container">
                <h1 class="hero__titel">Ефективні рішення для вашого бізнесу</h1>
                <button class="hero__button" type="button" data-modal-open>Замовити послугу</button>
             </div>
-         </section> -->
+         </section>
       <!-- Особливості -->
-      <!-- <section class="features section">
+      <section class="features section">
          <div class="features__box container">
             <h2 class="visually-hidden">Особливості</h2>
             <ul class="features__list">
@@ -128,7 +128,7 @@
                   <h3 class="features__titel">Планування</h3>
                   <p class="features__text">Так само консультація з широким активом значною мірою зумовлює.</p>
                </li>
-               <li class="feature__item">
+               <li class="features__item">
                   <div class="features__icon-box">
                      <svg class="features__icon" width="70" height="70">
                         <use href="./images/symbol-defs.svg#icon-astronaut-1"></use>
@@ -140,7 +140,7 @@
                </li>
             </ul>
          </div>
-      </section> -->
+      </section>
       <!-- Чим ми займаємося -->
       <!-- <section class="work">
          <div class="work__box container">
@@ -172,12 +172,16 @@
          </div>
       </section> -->
       <!-- Наша команда -->
-      <!-- <section class="team section">
+      <section class="team section">
          <div class="team__box container">
             <h2 class="team__titel titel">Наша команда</h2>
             <ul class="team__list">
                <li class="team__item">
-                  <img src="./images/img-t.jpg" alt="Ігор Дем'яненко" width="270">
+                  <picture>
+                     <source srcset="" media="()">
+                     <source srcset="./images/mobile/img-450.jpg x1" @media="(max-width: 767px)" />
+                     <img class="team__img" src="./images/img-t.jpg" alt="Ігор Дем'яненко" width="270">
+                  </picture>
                   <div class="team-list__box">
                      <h3 class="team__name">Ігор Дем'яненко</h3>
                      <p class="team__position">Product Designer</p>
@@ -214,7 +218,7 @@
                   </div>
                </li>
                <li class="team__item">
-                  <img src="./images/img-t-1.jpg" alt="Ольга Рєпіна" width="270">
+                  <img class="team__img" src="./images/img-t-1.jpg" alt="Ольга Рєпіна" width="270">
                   <div class="team-list__box">
                      <h3 class="team__name">Ольга Рєпіна</h3>
                      <p class="team__position">Frontend Developer</p>
@@ -251,7 +255,7 @@
                   </div>
                </li>
                <li class="team__item">
-                  <img src="./images/img-t-2.jpg" alt="Микола Тарасов" width="270">
+                  <img class="team__img" src="./images/img-t-2.jpg" alt="Микола Тарасов" width="270">
                   <div class="team-list__box">
                      <h3 class="team__name">Микола Тарасов</h3>
                      <p class="team__position">Marketing</p>
@@ -288,7 +292,7 @@
                   </div>
                </li>
                <li class="team__item">
-                  <img src="./images/img-t-3.jpg" alt="Михайло Єрмаков" width="270">
+                  <img class="team__img" src="./images/img-t-3.jpg" alt="Михайло Єрмаков" width="270">
                   <div class="team-list__box">
                      <h3 class="team__name">Михайло Єрмаков</h3>
                      <p class="team__position">UI Designer</p>
@@ -326,7 +330,7 @@
                </li>
             </ul>
          </div>
-      </section> -->
+      </section>
       <!--Постійні клієнти -->
       <!-- <section class="clients section">
          <div class="clients__box container">
