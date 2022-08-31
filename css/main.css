@@ -923,7 +923,8 @@ img {
   display: block;
   margin-bottom: 50px;
 }
-.filter__box .filter__list {
+
+.filter__list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -932,7 +933,8 @@ img {
   column-gap: 8px;
   row-gap: 15px;
 }
-.filter__box .filter__button {
+
+.filter__button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -949,25 +951,36 @@ img {
   background-color: var(--background-second);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.filter__box .filter__button:hover, .filter__box .filter__button:focus {
+.filter__button:hover, .filter__button:focus {
   background-color: var(--hover-color);
   color: var(--basic-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+@media screen and (min-width: 768px) {
+  .filter__list {
+    justify-content: center;
+  }
+}
 .portfolio__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  margin-bottom: 30px;
 }
+
 @media screen and (max-width: 767px) {
   .portfolio__list {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    column-gap: 30px;
+  }
+  .portfolio__item {
+    display: block;
+    margin-bottom: 30px;
   }
 }
-
 .portfolio__link {
   color: inherit;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1030,6 +1043,12 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .portfolio__link {
     flex-direction: column;
+  }
+  .portfolio__border {
+    max-width: 354px;
+  }
+  .portfolio__item:first-child .portfolio__border {
+    padding-bottom: 56px;
   }
 }
 .backdrop {
