@@ -1,20 +1,23 @@
 .filter__box {
+   display: block;
    margin-bottom: 50px;
    .filter__list {
       font-weight: 500;
       font-size: 16px;
       line-height: 1.62;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 8px;
+      row-gap: 15px;
+     
    }
 
-   .filter__item {
-      text-align: center;
-      &:not(:last-child) {
-         margin-right: 8px;
-      }
-   }
+   // .filter__item {
+   //    text-align: center;
+   //    &:not(:last-child) {
+   //       margin-right: 8px;
+   //    }
+   // }
 
    .filter__button {
       font-family: inherit;
