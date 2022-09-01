@@ -1,15 +1,14 @@
 .clients__list {
    display: flex;
    flex-wrap: wrap;
-   justify-content: center;
    margin-top: 50px;
+   justify-content: center;
    gap: 30px;
 }
 
 .clients__item {
    display: block;
    max-width: 210px;
-   
 }
 
 .clients__link {
@@ -17,8 +16,8 @@
    justify-content: center;
    align-items: center;
    color: var(--second-border-color);
-   max-width: 210px;
-   height:auto;
+   width: 210px;
+   height: 92px;
    border: 1px solid var(--second-border-color);
    border-radius: 4px;
    fill: currentColor;
@@ -38,18 +37,21 @@
 }
 
 @media screen and (min-width: 768px) {
+   
    .clients__item {
       max-width: 226px;
    }
    .clients__link {
-      max-width: 226px;
+      width: 226px;
    }
+
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px){
+
    .clients__item {
       max-width: 170px;
    }
    .clients__link {
-      max-width: 170px;
+      width: 170px;
    }
 }

@@ -629,8 +629,8 @@ img {
 .clients__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   margin-top: 50px;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -644,8 +644,8 @@ img {
   justify-content: center;
   align-items: center;
   color: var(--second-border-color);
-  max-width: 210px;
-  height: auto;
+  width: 210px;
+  height: 92px;
   border: 1px solid var(--second-border-color);
   border-radius: 4px;
   fill: currentColor;
@@ -668,7 +668,7 @@ img {
     max-width: 226px;
   }
   .clients__link {
-    max-width: 226px;
+    width: 226px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -676,7 +676,7 @@ img {
     max-width: 170px;
   }
   .clients__link {
-    max-width: 170px;
+    width: 170px;
   }
 }
 .footer {
