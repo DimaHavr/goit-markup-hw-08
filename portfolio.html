@@ -25,12 +25,15 @@
             <nav>
                <ul class="nav__list">
                   <li class="nav__item"><a class="nav__link" href="./index.html">Студія</a></li>
-                  <li class="nav__item"><a class="nav__link nav__link_current" href="./portfolio.html">Портфоліо</a>
-                  </li>
+                  <li class="nav__item"><a class="nav__link  nav__link_current" href="./portfolio.html">Портфоліо</a></li>
                   <li class="nav__item"><a class="nav__link" href="">Контакти</a></li>
                </ul>
             </nav>
          </div>
+         <button class="mobile-menu-button" data-menu-open type="button"><svg class="mobile-menu-button__icon" width="40"
+               height="40px">
+               <use href="./images/symbol-defs.svg#icon-menu_40px"></use>
+            </svg></button>
          <div class="contact__box">
             <ul class="contact__list">
                <li class="contact__item">
@@ -48,6 +51,37 @@
                      +38 096 111 11 11</a>
                </li>
             </ul>
+         </div>
+         <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu__container">
+               <button type="button" class="mobile-menu__close-button" data-menu-close><svg class="mobile-menu__close-icon"
+                     width="40px" height="40px">
+                     <use href="./images/symbol-defs.svg#icon-close-black"></use>
+                  </svg></button>
+               <ul class="mobile-menu__list">
+                  <li class="mobile-menu__item"><a class="mobile-menu__link" href="./index.html">Студія</a></li>
+                  <li class="mobile-menu__item"><a class="mobile-menu__link" href="./portfolio.html">Портфоліо</a></li>
+                  <li class="mobile-menu__item"><a class="mobile-menu__link" href="">Контакти</a></li>
+               </ul>
+               <ul class="mobile-menu__contact-list">
+                  <li class="mobile-menu__contact-item">
+                     <a class="mobile-menu__contact-link" href="tel:+380961111111">
+                        +38 096 111 11 11</a>
+                  </li>
+                  <li class="mobile-menu__contact-item">
+                     <a class="mobile-menu__contact-link" href="mailto:info@devstudio.com">
+                        info@devstudio.com</a>
+                  </li>
+               </ul>
+               <ul class="mobile-menu__social-list">
+                  <li class="mobile-menu__social-item"><a class="mobile-menu__social-link" href="">Instagram</a></li>
+                  <li class="mobile-menu__social-item"><a class="mobile-menu__social-link" href="">Twitter</a></li>
+                  <li class="mobile-menu__social-item"><a class="mobile-menu__social-link" href="">Facebook</a></li>
+                  <li class="mobile-menu__social-item"><a class="mobile-menu__social-link" href="">LinkedIn</a></li>
+               </ul>
+            </div>
+   
+   
          </div>
       </div>
    </header>
@@ -248,9 +282,9 @@
    </main>
    <footer class="footer">
       <div class="footer__box container">
-         <div>
-            <a class="footer__logo" href="./index.html"><span class="logo__item">Web</span>Studio</a>
+         <div class="footer__address-box">
             <address class="address">
+               <a class="footer__logo" href="./index.html"><span class="logo__item">Web</span>Studio</a>
                <ul class="address__list">
                   <li class="footer__item"><a class="address__link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                         target="_blank" rel="noopener noreferrer nofollow">м.
@@ -260,39 +294,40 @@
                   <li class="footer__item"><a class="footer__link" href="tel:+380991111111">+38 099 111 11 11</a></li>
                </ul>
             </address>
-         </div>
-         <div class="footer-social__box">
-            <p class="footer-social__text">Приєднуйтесь</p>
-            <ul class="footer-social__list">
-               <li class="footer-social__item">
-                  <a href="" class="footer-social__link">
-                     <svg class="footer-social__icon" width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
-                     </svg>
-                  </a>
-               </li>
-               <li class="footer-social__item">
-                  <a href="" class="footer-social__link">
-                     <svg class="footer-social__icon" width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
-                     </svg>
-                  </a>
-               </li>
-               <li class="footer-social__item">
-                  <a href="" class="footer-social__link">
-                     <svg class="footer-social__icon" width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-facebook-1"></use>
-                     </svg>
-                  </a>
-               </li>
-               <li class="footer-social__item">
-                  <a href="" class="footer-social__link">
-                     <svg class="footer-social__icon" width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-linkedin-1"></use>
-                     </svg>
-                  </a>
-               </li>
-            </ul>
+   
+            <div class="footer-social__box">
+               <p class="footer-social__text">Приєднуйтесь</p>
+               <ul class="footer-social__list">
+                  <li class="footer-social__item">
+                     <a href="" class="footer-social__link">
+                        <svg class="footer-social__icon" width="20" height="20">
+                           <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="footer-social__item">
+                     <a href="" class="footer-social__link">
+                        <svg class="footer-social__icon" width="20" height="20">
+                           <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="footer-social__item">
+                     <a href="" class="footer-social__link">
+                        <svg class="footer-social__icon" width="20" height="20">
+                           <use href="./images/symbol-defs.svg#icon-facebook-1"></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="footer-social__item">
+                     <a href="" class="footer-social__link">
+                        <svg class="footer-social__icon" width="20" height="20">
+                           <use href="./images/symbol-defs.svg#icon-linkedin-1"></use>
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+            </div>
          </div>
          <div class="footer-form__box">
             <p class="footer-form__text">Підпишіться на розсилку</p>

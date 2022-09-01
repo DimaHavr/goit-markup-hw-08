@@ -8,6 +8,7 @@
 .clients__item {
    display: block;
    max-width: 210px;
+   
 }
 
 .clients__link {
@@ -36,17 +37,14 @@
 }
 
 @media screen and (min-width: 768px) {
-   
    .clients__item {
       max-width: 226px;
    }
    .clients__link {
       width: 226px;
    }
-
 }
-@media screen and (min-width: 1200px){
-
+@media screen and (min-width: 1200px) {
    .clients__item {
       max-width: 170px;
    }
