@@ -10,7 +10,7 @@
       visibility: hidden;
       opacity: 0;
       pointer-events: none;
-      transition: opacity 400ms, visibility 450ms;
+      transition: opacity 450ms, visibility 450ms;
    }
    .mobile-menu.is-open {
       visibility: visible;
@@ -22,6 +22,9 @@
       padding-left: 40px;
       padding-top: 48px;
       padding-bottom: 48px;
+      @media screen and (max-width: 450px){
+         padding-left: 20px;
+      }
    }
 
    .mobile-menu__close-button {

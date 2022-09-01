@@ -1,6 +1,7 @@
 .clients__list {
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
    margin-top: 50px;
    gap: 30px;
 }
@@ -16,8 +17,8 @@
    justify-content: center;
    align-items: center;
    color: var(--second-border-color);
-   width: 210px;
-   height: 92px;
+   max-width: 210px;
+   height:auto;
    border: 1px solid var(--second-border-color);
    border-radius: 4px;
    fill: currentColor;
@@ -41,7 +42,7 @@
       max-width: 226px;
    }
    .clients__link {
-      width: 226px;
+      max-width: 226px;
    }
 }
 @media screen and (min-width: 1200px) {
@@ -49,6 +50,6 @@
       max-width: 170px;
    }
    .clients__link {
-      width: 170px;
+      max-width: 170px;
    }
 }
