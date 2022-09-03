@@ -19,11 +19,12 @@
       font-style: normal;
       font-size: 14px;
       line-height: 1.71;
-      @media screen and (max-width: 1199px) {
-         margin-bottom: 60px;
-      }
    }
-
+   .address__list {
+      display: flex;
+      gap: 8px;
+      flex-direction: column;
+   }
    .address__link {
       display: flex;
       align-items: center;
@@ -54,6 +55,9 @@
    .footer__address-box {
       display: flex;
       justify-content: space-around;
+      @media screen and (max-width: 1199px) {
+         margin-bottom: 60px;
+      }
    }
 }
 
@@ -69,6 +73,7 @@
       align-items: flex-start;
       margin-right: 70px;
    }
-   .footer__address-box{
-      display: flex;}
-} 
+   .footer__address-box {
+      display: flex;
+   }
+}

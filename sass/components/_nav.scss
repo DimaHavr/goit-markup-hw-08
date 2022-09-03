@@ -8,16 +8,19 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-top: 10px;
-      padding-bottom: 10px;
+   }
+   .nav__box{
+      margin-left: 88px;
+      
    }
    .nav__list {
       display: flex;
       align-items: center;
       gap: 50px;
-      margin-left: 88px;
+      
    }
    .nav__link {
+      display: inline-block;
       position: relative;
       padding-top: 32px;
       padding-bottom: 33px;
@@ -42,6 +45,7 @@
       height: 4px;
       background-color: var(--hover-color);
       border-radius: 2px;
+      margin-bottom: -1px;
       content: "";
    }
     
@@ -53,7 +57,7 @@
 
    @media screen and (max-width: 1199px) {
       .contact__item:first-child {
-         padding-bottom: 10px;
+         margin-bottom: 10px;
       }
    }
 
