@@ -9,15 +9,13 @@
       justify-content: space-between;
       align-items: center;
    }
-   .nav__box{
+   .nav__box {
       margin-left: 88px;
-      
    }
    .nav__list {
       display: flex;
       align-items: center;
       gap: 50px;
-      
    }
    .nav__link {
       display: inline-block;
@@ -48,7 +46,6 @@
       margin-bottom: -1px;
       content: "";
    }
-    
 
    .contact__list {
       display: block;
@@ -79,8 +76,8 @@
       }
    }
    .nav__link_current {
-         color: var(--hover-color);
-      }
+      color: var(--hover-color);
+   }
 }
 @media screen and (min-width: 1200px) {
    .nav__list {
@@ -92,5 +89,4 @@
       align-items: center;
       gap: 30px;
    }
-  
 }

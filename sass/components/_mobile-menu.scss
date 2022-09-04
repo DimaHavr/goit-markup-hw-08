@@ -11,6 +11,7 @@
       opacity: 0;
       pointer-events: none;
       transition: opacity 450ms, visibility 450ms;
+      min-height: 100%;
    }
    .mobile-menu.is-open {
       visibility: visible;
@@ -22,6 +23,9 @@
       padding-left: 40px;
       padding-top: 48px;
       padding-bottom: 48px;
+      display: flex;
+      height: 100%;
+      flex-direction: column;
       @media screen and (max-width: 450px) {
          padding-left: 20px;
       }
@@ -60,7 +64,7 @@
          color: var(--hover-color);
       }
    }
-     .mobile-menu__contacts-box {
+   .mobile-menu__contacts-box {
       margin-top: auto;
    }
    .mobile-menu__contact-list {

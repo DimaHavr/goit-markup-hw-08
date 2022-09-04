@@ -15,6 +15,7 @@
 }
 
 body {
+  height: 100%;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
@@ -155,6 +156,7 @@ img {
     opacity: 0;
     pointer-events: none;
     transition: opacity 450ms, visibility 450ms;
+    min-height: 100%;
   }
   .mobile-menu.is-open {
     visibility: visible;
@@ -166,6 +168,9 @@ img {
     padding-left: 40px;
     padding-top: 48px;
     padding-bottom: 48px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 768px) and (max-width: 450px) {
