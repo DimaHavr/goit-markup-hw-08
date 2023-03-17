@@ -5,6 +5,11 @@ body {
    letter-spacing: 0.03em;
    color: var(--brand-color);
    background-color: var(--basic-color);
+
+   &.is-fixed {
+      overflow: hidden;
+      background-color: black;
+   }
 }
 
 h1,
@@ -25,7 +30,7 @@ ul {
 a {
    text-decoration: none;
 }
-img{
+img {
    display: block;
    max-width: 100%;
    height: auto;
